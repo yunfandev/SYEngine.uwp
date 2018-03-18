@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SYEngine.uwp</id>
+    <version>1.0.7</version>
+    <title>SYEngine.uwp</title>
+    <authors>ZhuiMeng</authors>
+    <owners>ZhuiMeng</owners>
+    <licenseUrl>https://github.com/amamiya/SYEngine/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MengYunfan/SYEngine.uwp</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This is nuget package version of SYEngine, with this package you don't need to install SYEngine any more, and it was very useful when your app need to build on VSTS.</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <tags>SYEngine</tags>
+  </metadata>
+  <files>
+
+    <!-- WinMd and IntelliSense -->
+    <file src="SYEngine.winmd" target="lib\uap10.0"/>
+
+    <!-- DLLs and resources -->
+    <file src="ARM\CoreDemuxers.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\CoreMFSource.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\ffcodecs.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\MultipartStreamMatroska.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\RtmpStream.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\SYEngine.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\TransformFilter.dll" target="runtimes\win10-arm\native"/>
+    <file src="ARM\WinhttpWrapper.dll" target="runtimes\win10-arm\native"/>
+
+    <file src="x64\CoreDemuxers.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\CoreMFSource.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\ffcodecs.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\MultipartStreamMatroska.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\RtmpStream.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\SYEngine.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\TransformFilter.dll" target="runtimes\win10-x64\native"/>
+    <file src="x64\WinhttpWrapper.dll" target="runtimes\win10-x64\native"/>
+
+    <file src="x86\CoreDemuxers.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\CoreMFSource.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\ffcodecs.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\MultipartStreamMatroska.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\RtmpStream.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\SYEngine.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\TransformFilter.dll" target="runtimes\win10-x86\native"/>
+    <file src="x86\WinhttpWrapper.dll" target="runtimes\win10-x86\native"/>
+
+  </files>
+</package>
